@@ -146,4 +146,25 @@ li a:hover {
 }
 
 /* Property highlights section*/
-  
+.Highlights {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.Highlights h1 {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.Highlights-boxes{
+ 
+  display: grid;
+  place-self: center;
+  grid-template-columns: repeat(1, 1fr);
+
+}
