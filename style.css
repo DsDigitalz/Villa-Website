@@ -125,7 +125,7 @@ li a:hover {
 }
 
 .about-info h1 {
-  font-size: 34px;
+  font-size: 30px;
   margin-top: 30px;
 }
 
@@ -144,3 +144,6 @@ li a:hover {
 .icon-info p {
   color: #888888;
 }
+
+/* Property highlights section*/
+  
