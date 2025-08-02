@@ -111,7 +111,7 @@ li a:hover {
 
 .about-img img {
   width: 100%;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 
   /* height: 100vh; */
   /* background-position: center; */
@@ -177,3 +177,79 @@ li a:hover {
 .box1 img {
   width: 100%;
 }
+
+/* Amenities Section */
+
+.amenities-container {
+  /* max-width: 1440px; */
+  /* margin: 0 auto; */
+  margin-top: 70px;
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.amenities-container .first-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.amenities-img img {
+  width: 100%;
+  margin-top: 30px;
+  flex: 1;
+
+  /* height: 100vh; */
+  /* background-position: center; */
+  /* background-size: cover; */
+}
+
+.amenities-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex: 1;
+}
+
+.amenities-info h1 {
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.team-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.team-container h1 {
+  font-size: 30px;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+
+  /* justify-content: center; */
+  gap: 30px;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.footer-container {
+  background-color: black;
+}
+
+.footerinfo1
