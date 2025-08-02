@@ -184,6 +184,17 @@
     grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
   }
+
+  .Highlights-boxes{
+ 
+  display: grid;
+  place-self: center;
+  grid-template-columns: repeat(1, 1fr);
+  margin-top: 100px;
+  padding: 0 40px;
+  gap: 20px;
+
+}
 }
 
 /* ==========================================================================
@@ -297,6 +308,16 @@ Large screens (Desktops, 992px and up)
     padding-left: 40px;
     padding-right: 40px;
   }
+
+  .Highlights-boxes{
+ 
+  display: grid;
+  place-self: center;
+  grid-template-columns: repeat(2, 1fr);
+ 
+  gap: 50px;
+
+}
 }
 
 /* ==========================================================================
@@ -318,6 +339,17 @@ Large screens (Desktops, 992px and up)
   .about-info p {
     width: 70%;
   }
+  
+   .Highlights-boxes{
+ 
+  display: grid;
+  place-self: center;
+  grid-template-columns: repeat(3, 1fr);
+ padding-left: 40px;
+ padding-right: 40px;
+  gap: 50px;
+
+}
 }
 
 /* ==========================================================================
