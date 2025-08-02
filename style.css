@@ -104,12 +104,43 @@ li a:hover {
   padding: 20px;
   display: flex;
   flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-img img {
   width: 100%;
-  
+  margin-top: 30px;
+
   /* height: 100vh; */
   /* background-position: center; */
   /* background-size: cover; */
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.about-info h1 {
+  font-size: 34px;
+  margin-top: 30px;
+}
+
+.icon-container {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+}
+.icon-con1 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.icon-info p {
+  color: #888888;
 }

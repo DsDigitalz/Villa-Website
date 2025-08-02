@@ -159,8 +159,30 @@
 ==========================================================================*/
 
 @media (min-width: 576px) {
-  .container {
-    max-width: 540px;
+  /* About Section */
+  .about-container {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-img img {
+    width: 90vw;
+
+    /* height: 100vh; */
+    /* background-position: center; */
+    /* background-size: cover; */
+  }
+
+  .icon-container {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
   }
 }
 
@@ -168,20 +190,76 @@
    Medium screens (Laptops, small desktops, 768px and up)
    ========================================================================== */
 @media (min-width: 768px) {
-  .container {
-    max-width: 720px;
+  .about-container {
+    max-width: 1440px;
+    margin: 0 auto;
   }
-  body {
-    font-size: 18px;
+
+  .about-img img {
+    width: 100%;
+    flex: 1;
   }
 }
-
 /* ==========================================================================
    Large screens (Desktops, 992px and up)
    ========================================================================== */
 @media (min-width: 992px) {
-  .container {
-    max-width: 960px;
+  /* About Section */
+  .about-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .first-container {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-img img {
+    width: 100%;
+    flex: 1;
+
+    /* height: 100vh; */
+    /* background-position: center; */
+    /* background-size: cover; */
+  }
+
+  .about-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1;
+  }
+
+  .about-info h1 {
+    font-size: 200px;
+  }
+
+  .icon-container {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+  }
+  .icon-con1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .icon-info p {
   }
 }
 
@@ -189,8 +267,20 @@
    Extra large screens (Large desktops, 1200px and up)
    ========================================================================== */
 @media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
+  .about-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .about-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1;
+    /* width: 90%; */
+  }
+
+  .about-info p {
+    width: 70%;
   }
 }
 
