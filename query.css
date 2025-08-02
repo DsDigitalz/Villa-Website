@@ -96,7 +96,6 @@
     align-items: center;
     padding-left: 20px;
     padding-right: 20px;
-
   }
   .hamburger-container {
     /* background-color: black; */
@@ -152,5 +151,54 @@
     padding: 15px 20px;
     text-transform: uppercase;
     font-weight: 600;
+  }
+}
+
+/*========================================================================== 
+ Small screens (Tablets, landscape phones, 576px and up) 
+==========================================================================*/
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+/* ==========================================================================
+   Medium screens (Laptops, small desktops, 768px and up)
+   ========================================================================== */
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+  body {
+    font-size: 18px;
+  }
+}
+
+/* ==========================================================================
+   Large screens (Desktops, 992px and up)
+   ========================================================================== */
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+/* ==========================================================================
+   Extra large screens (Large desktops, 1200px and up)
+   ========================================================================== */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/* ==========================================================================
+   Extra extra large screens (Ultra-wide screens, 1400px and up)
+   ========================================================================== */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
   }
 }
