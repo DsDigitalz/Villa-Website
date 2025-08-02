@@ -190,7 +190,7 @@
   display: grid;
   place-self: center;
   grid-template-columns: repeat(1, 1fr);
-  margin-top: 100px;
+  margin-top: 50px;
   padding: 0 40px;
   gap: 20px;
 
